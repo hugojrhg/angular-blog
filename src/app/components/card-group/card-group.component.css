@@ -1,0 +1,23 @@
+.card-group {
+    display: grid;
+    grid-template-columns: auto auto;
+    max-width: 90%;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: aliceblue;
+}
+.card-group app-small-card {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 992px) {
+    .card-group {
+        max-width: 60%;
+        grid-template-columns: auto auto auto;
+    }
+    .card-group app-small-card {
+        margin: 10px auto auto;
+    }
+}
