@@ -12,10 +12,10 @@
 ul {
     display: flex;
     flex-direction: row;
-    padding: 13px;
     list-style: none;
     width: fit-content;
     margin: 0 auto;
+    padding: 13px;
 }
 
 li {
@@ -29,7 +29,7 @@ li {
 }
 
 .header li {
-    margin: auto 15px;
+    margin-top: auto;
 }
 a {
     text-decoration: none;
@@ -39,4 +39,9 @@ a {
 }
 .header a {
     color: #000;
+}
+@media screen and (min-width: 992px) {
+    .header li {
+        margin: auto 15px;
+    }
 }
